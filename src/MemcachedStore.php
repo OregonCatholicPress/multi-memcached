@@ -1,6 +1,6 @@
 <?php
 
-namespace Clowdy\Cache;
+namespace OregonCatholicPress\Cache;
 
 use Illuminate\Cache\MemcachedStore as IlluminateMemcachedStore;
 
