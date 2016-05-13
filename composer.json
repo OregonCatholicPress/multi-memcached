@@ -1,5 +1,6 @@
 {
     "name": "oregoncatholicpress/multi-memcached",
+   	"type": "library",
     "description": "Multiple memcached connection handler for Laravel and elasticache support. FORK of clowdy/multi-memcached, to allow package inclusion for laravel 5 projects.  ",
     "keywords": ["laravel", "memcached", "cache", "elasticache"],
     "license": "MIT",
