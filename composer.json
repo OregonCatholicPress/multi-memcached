@@ -1,9 +1,13 @@
 {
     "name": "clowdy/multi-memcached",
-    "description": "Multiple memcached connection handler for Laravel and elasticache support",
+    "description": "Multiple memcached connection handler for Laravel and elasticache support. FORK of clowdy/multi-memcached, to allow package inclusion for laravel 5 projects.  ",
     "keywords": ["laravel", "memcached", "cache", "elasticache"],
     "license": "MIT",
     "authors": [
+        {
+            "name": "Rich Vigorito",
+            "email": "Oregon Catholic Press"
+        }
         {
             "name": "Pulkit Jalan",
             "email": "pulkit@clowdy.com"
@@ -11,8 +15,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~4.2",
-        "illuminate/cache": "~4.2"
+        "illuminate/support": "~5.x",
+        "illuminate/cache": "~5.x"
     },
     "autoload": {
         "psr-4": {
